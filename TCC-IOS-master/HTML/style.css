@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+nav {
+    position: fixed;
+    /* Fixa no topo da página */
+    top: 0;
+    /* Alinha ao topo */
+    left: 0;
+    /* Alinha à esquerda */
+    width: 100%;
+    /* Ajusta a largura para toda a tela */
+    height: 150px;
+    /* Define a altura desejada */
+    background-color: #030303;
+    /* Cor de fundo da barra */
+    color: white;
+    /* Cor do texto */
+    display: flex;
+    /* Alinha o conteúdo em linha */
+    align-items: center;
+    /* Centraliza verticalmente o conteúdo */
+    padding: 0 20px;
+    /* Espaçamento interno */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra opcional */
+    z-index: 1000;
+}
+
+#menu1,
+#menu2 {
+    position: relative;
+    left: 1005px;
+    bottom: 150px;
+
+
+
+
+}
+
+#menu1 {
+    bottom: 150px;
+    font-size: 25px;
+}
+
+#menu2 {
+    font-size: 20px;
+
+}
+
+li {
+    display: inline;
+    color: white;
+    margin-right: 15px;
+}
+
+a {
+    color: aliceblue;
+}
+
+#logo {
+    position: relative;
+    right: 15%;
+    bottom: 45px;
+    width: 455px;
+    display: flex;
+
+}
+
+.apresentação {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+   flex-direction: column;
+    height: 60vh;
+    color: rgba(255, 255, 255, 0.986);
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0);
+    background-image: url(IMGS/image.png);
+    background-size: cover;
+    padding-top: 480px;
+    padding-bottom: 20px;
+}
+
+#video-container {
+    border: solid 3px rgba(175, 6, 85, 0.623);
+
+    background-color: transparent;
+    width: 1500px;
+    height: 350px;
+}
+
+#play-button {
+    color: rgba(232, 235, 238, 0.87);
+    font-size: 200px;
+}
+
+.proposito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 60vh;
+    
+}
+#proposito-title{
+    font-size: 35px;
+    color: purple;
+}
+
+
+footer {
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(130, 212, 164);
+    /* Altere conforme desejado */
+    z-index: 1000;
+    /* Para garantir que o footer fique acima de outros elementos */
+}
+
+#foterescrita {
+    color: aliceblue;
+    font-size: 35px;
+
+
+}
