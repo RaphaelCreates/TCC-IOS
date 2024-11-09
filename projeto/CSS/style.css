@@ -14,41 +14,65 @@ nav {
     position: fixed;
     width: 100%;
     height: 150px;
-    background-color: #278036;
+    background-color: #F5F5F5;
     display: flex;
     align-items: center;
     padding: 0 20px;
     z-index: 1000;
-    color: black;
+    color: rgb(223, 220, 220);
+   
 }
 
-#logo {
-    margin-top: 60px;
+#logo{
     display: flex;
-    width: 305px;
-    display: flex;
+    position: absolute;
+   list-style: none;
 }
 
-#menu1,
-#menu2 {
-    position: relative;
-    left: 1005px;
-    bottom: 150px;
+
+    
+
+#menu1{
+    display:inline-flex;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    
+    
     font-size: 25px;
 }
 
 #menu2 {
-   font-size: 20px;
+    display: inline;
+    position: absolute;
+    right: 7%;
+    top: 55%;
 }
+
+
 
 li {
     display: inline;
-    color: white;
+    color: rgb(240, 237, 237);
     margin-right: 15px;
+    
+    
 }
 
 a {
-    color: black;
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 90px;
+    background-color: black;
+    padding: 5px;
+    transition: background-color 0.9s ease;
+   
+}
+a:hover{
+    background-color: #cebebe86;
+    cursor: pointer;
+    
 }
 
 .proposito, .apresentacao, section{
@@ -65,8 +89,9 @@ a {
 .apresentacao {
     color: rgba(255, 255, 255, 0.986);
     text-align: center;
-    background-image: url(../IMGS/image.png);
+    background-image: url(Captura\ de\ tela\ copia.png);
     background-size: cover;
+    height: 20%;
     padding-top: 480px;
     padding-bottom: 20px;
 }
@@ -116,6 +141,6 @@ footer {
 }
 
 #foterescrita {
-    color: rgb(220, 227, 233);
+    color: aliceblue;
     font-size: 35px;
 }
