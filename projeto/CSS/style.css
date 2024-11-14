@@ -20,25 +20,19 @@ nav {
     padding: 0 20px;
     z-index: 1000;
     color: rgb(223, 220, 220);
-   
 }
 
 #logo{
+    width: 200px;
     display: flex;
-    position: absolute;
-   list-style: none;
-}
-
-
-    
+    list-style: none;
+}   
 
 #menu1{
     display:inline-flex;
     position: absolute;
     right: 5%;
     top: 25%;
-    
-    
     font-size: 25px;
 }
 
@@ -59,7 +53,7 @@ li {
     
 }
 
-a {
+ul > li > a {
     color: rgb(255, 252, 252);
     text-decoration: none;
     border: solid 1px;
@@ -67,12 +61,13 @@ a {
     background-color: black;
     padding: 5px;
     transition: background-color 0.9s ease;
-   
 }
+
+
+
 a:hover{
     background-color: #cebebe86;
     cursor: pointer;
-    
 }
 
 .proposito, .apresentacao, section{
@@ -128,7 +123,6 @@ a:hover{
 #historia-div{
     text-align: center;
     width: 100%;
-    background-color: aqua;
 }
 footer {
     text-align: center;
@@ -142,5 +136,5 @@ footer {
 
 #foterescrita {
     color: aliceblue;
-    font-size: 35px;
+    font-size:35px;
 }
