@@ -81,14 +81,24 @@ a:hover{
     
 }
 
-.apresentacao {
-    color: rgba(255, 255, 255, 0.986);
-    text-align: center;
-    background-image: url(Captura\ de\ tela\ copia.png);
-    background-size: cover;
-    height: 20%;
-    padding-top: 480px;
-    padding-bottom: 20px;
+
+    
+
+
+
+
+#ImgProposito{
+    display: flex;
+    position: relative;
+    display: flex;
+    width: 100%;
+    z-index: -1;
+}
+#quadra{
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: -1;
 }
 
 #video-container {
@@ -96,6 +106,8 @@ a:hover{
     background-color: transparent;
     width: 1500px;
     height: 350px;
+   
+
 }
 
 #play-button {
