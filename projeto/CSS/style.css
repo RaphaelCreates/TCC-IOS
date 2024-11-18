@@ -17,15 +17,18 @@ nav {
     background-color: #F5F5F5;
     display: flex;
     align-items: center;
-    padding: 0 20px;
-    z-index: 1000;
+   z-index: auto;
+    bottom: 85%;
     color: rgb(223, 220, 220);
+    
 }
 
 #logo{
-    width: 200px;
+    width: 35vh;
     display: flex;
     list-style: none;
+    position: relative;
+    bottom: 2rem;
 }   
 
 #menu1{
@@ -71,6 +74,8 @@ a:hover{
 }
 
 .proposito, .apresentacao, section{
+   
+    border: solid 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,39 +85,51 @@ a:hover{
     height: 60vh;
     
 }
-
-
-    
-
-
-
-
-#ImgProposito{
-    display: flex;
-    position: relative;
-    display: flex;
-    width: 100%;
-    z-index: -1;
+.apresentacao{
+    margin-top: 5rem;
+    background-image: url(IMGS/apren.jfif);
+    background-repeat: calc(1.0);
+    justify-content: center;
+    align-items: center;
 }
+
+    .proposito{
+        background-image: url(IMGS/img-proposito.jpg);
+    }
+
+
+
+
+
 #quadra{
     display: flex;
     position: relative;
-    width: 100%;
-    z-index: -1;
 }
-
+.video{
+    padding-top: 15rem;
+   
+}
 #video-container {
-    border: solid 3px rgba(245, 238, 241, 0.87);
-    background-color: transparent;
+   
+   position: relative;
+   display: flex;
+   
     width: 1500px;
     height: 350px;
+    border: solid 3px rgb(22, 172, 8);
+    
    
 
 }
 
 #play-button {
+    display: flex;
     color: rgba(232, 235, 238, 0.87);
     font-size: 200px;
+    position: relative;
+    left: 40%;
+   
+  
 }
 
 #proposito-title{
